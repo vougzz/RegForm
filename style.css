@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+#mainContainer{
+    padding: 50px;
+    background-color: lightblue;
+}
+
+h1{
+    text-align: center;
+}
+hr{
+    color: #f1f1f1;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+div{
+    padding: 5px 0;
+}
+#cSelect{
+    width: 5%;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+textarea{
+    width: 100%;
+    padding: 15px 0 15px 0;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=radio]{
+    width: 5%;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+}
+input[type=tel]{
+    width: 20%;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #f1f1f1;
+}
+input.code{
+    width: 10%;
+}
+
+input[type=checkbox]{
+    width: auto;
+    align-items: left;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+textarea{
+    width: 100%;
+}
+input{
+    height: 25px;
+    width: 100%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=tel]:focus,
+textarea:focus{
+    background-color: rgb(143, 231, 195);
+    outline: none;
+    transition: 0.5s;
+}
+
+#button{
+    width: 100%;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#button:hover{
+    color: red;
+    opacity: 0.8;
+}

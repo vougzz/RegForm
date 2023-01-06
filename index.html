@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="normalize.css"> 
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mainContainer">
+        <h1><i class="fa-regular fa-registered"></i>
+            Alumni Registration Form
+            <i class="fa-regular fa-registered"></i>
+        </h1>
+        <hr>
+        <form>
+            <div>
+                <label>First Name:</label>
+                <input type="text" name="fname" placeholder="Type your firstname" required /> 
+                <label >Middle Name:</label>
+                <input type="text" name="mname" placeholder="Type your middle name" required />
+                <label >Last Name:</label>
+                <input type="text" name="lname" placeholder="Type your lastname" required />
+            </div> 
+            <div>
+                <label >Course:</label>   
+                <select>
+                    <option selected>-Course-</option>
+                    <option value="ece">Electronics Engineering</option>
+                    <option value="cpe">Computer Engineering</option>
+                    <option value="me">Mechanical Engineering</option>
+                    <option value="ce">Civil Engineering</option>
+                    <option value="ee">Electrical Engineering</option>
+                </select> 
+            </div>
+            <div>
+                <label>Gender:
+                    <i class="fa-solid fa-person"></i>
+                </label>
+                    <input type="radio" name="male"/>Male 
+                    <input type="radio" name="female"/>female 
+                    <input type="radio" name="other"/>Other 
+            </div>
+            <div>
+                <label>Phone:
+                    <i class="fa-solid fa-phone"></i>
+                </label> 
+                <input type="tel" value="+63" placeholder="Area Code" required /> 
+                <input type="tel" name="phone" placeholder="Phone Number" required/> 
+            </div>
+            <div>
+                <label>Address:
+                    <i class="fa-solid fa-address-book"></i>
+                </label>
+                <textarea cols="70" rows="5" value="Address" placeholder="Your Current Address"></textarea> 
+            </div>
+            <div>
+                <label >Social Media:
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>      
+                    <i class="fa-brands fa-yahoo"></i>
+                </label> 
+                    <input type="checkbox" name="fb"/> Facebook
+                    <input type="checkbox" name="tw"/> Twitter
+                    <input type="checkbox"  name="ym"/>Yahoo 
+            </div>
+            <div>
+                <label>Email:
+                    <i class="fa-solid fa-envelope"></i>
+                </label>
+                <input type="email" name="email" placeholder="Type your email address" required /> 
+
+                <label>Password:
+                    <i class="fa-solid fa-lock"></i>
+                </label>
+                <input type="password" name="pword" placeholder="Password" required />
+
+                <label>Confirm Password:
+                    <i class="fa-solid fa-lock"></i>
+                </label>
+                <input type="password" name="rpword" placeholder="Confirm Password"/>
+            </div>
+            <div>
+                <input type="submit" id="button" name="submit" value="REGISTER" />
+            </div>
+    </div>
+            </form>
+    </body>
+</html>
